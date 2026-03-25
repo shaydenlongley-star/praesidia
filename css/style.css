@@ -645,6 +645,8 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 @media(max-width:640px) {
   .section { padding:40px 0; }
   .photo-grid, .product-grid { grid-template-columns:1fr; }
+  .ajax-product-grid { grid-template-columns:1fr !important; gap:16px !important; }
+  .ajax-product-grid img { width:100%; height:auto; }
   .split-img img { height:240px; }
   .hero-actions, .cta-actions { flex-direction:column; }
   .btn { white-space:normal; text-align:center; justify-content:center; }
