@@ -592,7 +592,8 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 .region-name-cell strong { font-size:0.93rem; font-weight:700; color:var(--text-dark); }
 .region-hq-tag { font-size:0.58rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; background:var(--primary); color:#fff; padding:2px 6px; border-radius:3px; flex-shrink:0; }
 .region-addr { font-size:0.83rem; color:var(--text-mid); line-height:1.5; }
-.region-tel a { font-size:0.88rem; color:var(--primary); font-weight:600; white-space:nowrap; display:block; }
+.region-tel { text-align:left; min-width:160px; }
+.region-tel a { font-size:0.88rem; color:var(--primary); font-weight:600; white-space:nowrap; display:block; font-variant-numeric:tabular-nums; letter-spacing:0.01em; }
 .region-tel a + a { color:var(--text-mid); font-weight:400; font-size:0.82rem; margin-top:3px; }
 .region-ops-hours { font-size:0.68rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-light); text-align:right; white-space:nowrap; }
 @media(max-width:1024px) { .region-row { grid-template-columns:180px 1fr auto; } .region-ops-hours { display:none; } }
