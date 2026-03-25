@@ -594,7 +594,7 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 .region-addr { font-size:0.83rem; color:var(--text-mid); line-height:1.5; }
 .region-tel { text-align:left; min-width:160px; }
 .region-tel a { font-size:0.88rem; color:var(--primary); font-weight:600; white-space:nowrap; display:block; font-variant-numeric:tabular-nums; letter-spacing:0.01em; }
-.region-tel a + a { color:var(--text-mid); font-weight:400; font-size:0.82rem; margin-top:3px; }
+.region-tel a + a { color:var(--text-mid); font-weight:500; font-size:0.88rem; margin-top:3px; }
 .region-ops-hours { font-size:0.68rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--text-light); text-align:right; white-space:nowrap; }
 @media(max-width:1024px) { .region-row { grid-template-columns:180px 1fr auto; } .region-ops-hours { display:none; } }
 @media(max-width:768px) { .region-row { grid-template-columns:1fr auto; } .region-addr { display:none; } }
