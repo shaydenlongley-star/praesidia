@@ -581,7 +581,7 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 .regions-table { border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; margin-top:48px; }
 .region-row {
   display:grid; grid-template-columns:220px 1fr auto auto;
-  gap:20px; align-items:center; padding:20px 28px;
+  gap:20px; align-items:start; padding:20px 28px;
   border-bottom:1px solid var(--border);
   transition:background 0.18s ease;
 }
@@ -603,7 +603,10 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 .contact-band { background:var(--primary); padding:40px 0; }
 .contact-band-inner { display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; }
 .contact-band-info strong { display:block; font-family:var(--font-display); font-size:1.35rem; color:#fff; margin-bottom:4px; }
+.contact-band-info h2, .contact-band-info h3 { color:#fff; margin-bottom:8px; }
 .contact-band-info span { font-size:0.78rem; color:rgba(255,255,255,0.65); letter-spacing:0.1em; text-transform:uppercase; }
+.contact-band-info p { color:rgba(255,255,255,0.72); margin:0; font-size:0.92rem; }
+.contact-band-info .eyebrow { color:rgba(255,255,255,0.55); margin-bottom:8px; }
 .contact-band-actions { display:flex; gap:12px; flex-wrap:wrap; }
 
 /* TYPOGRAPHIC CTA */
