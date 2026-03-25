@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Praesidia Alliance specialist security services — AJAX Systems, GPS tracking, 24/7 monitoring, power protection, cash in transit and testing across the South Pacific.">
+  <title>Specialist Services — Praesidia Alliance</title>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Praesidia Alliance">
+  <meta property="og:title" content="Specialist Services — Praesidia Alliance">
+  <meta property="og:description" content="Praesidia Alliance specialist security services — AJAX Systems, GPS tracking, 24/7 monitoring, power protection, cash in transit and testing across the South Pacific.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=2">
+  <style>
+    @media(max-width:900px){
+      .nav-menu{display:flex!important;position:fixed!important;top:0!important;left:0!important;right:0!important;bottom:0!important;width:100vw!important;height:100vh!important;min-height:100vh!important;background:#060d20!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;flex-direction:column!important;align-items:center!important;justify-content:flex-start!important;gap:4px!important;padding:96px 28px 40px!important;overflow-y:auto!important;z-index:9999!important;opacity:0!important;transform:translateX(100%)!important;pointer-events:none!important;transition:opacity .35s ease,transform .35s cubic-bezier(.4,0,.2,1)!important}
+      .nav-menu.open{opacity:1!important;transform:translateX(0)!important;pointer-events:all!important}
+      .nav-toggle{display:flex!important;z-index:10000!important;position:relative!important}
+      .nav-menu a{font-size:1.1rem!important;padding:13px 28px!important;font-weight:700!important;color:rgba(255,255,255,0.85)!important;width:100%!important;text-align:center!important;display:block!important;border-radius:8px!important}
+      .nav-menu a:hover,.nav-menu a.active{color:#fff!important;background:rgba(255,255,255,0.07)!important}
+      .nav-cta{background:#0040CC!important;border-radius:6px!important;margin-top:12px!important}
+    }
+    html,body{overflow-x:hidden!important}
+  </style>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.png" alt="Praesidia Alliance" class="nav-logo-img">
+        <div class="nav-logo-text">
+          <strong>Praesidia</strong>
+          <span>Alliance</span>
+        </div>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pal-branches.html">PAL Branches</a></li>
+        <li class="has-dropdown">
+          <a href="specialist.html">Specialist Services <span class="icon" data-icon="chevron-down" style="width:14px;height:14px;"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="ajax-systems.html">AJAX Systems</a></li>
+            <li><a href="tracknetmobi.html">GPS Tracking</a></li>
+            <li><a href="247net.html">24/7 Monitoring</a></li>
+            <li><a href="power.html">Power Protection</a></li>
+            <li><a href="cit.html">Cash In Transit</a></li>
+            <li><a href="testing.html">Testing &amp; Assessment</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="administration--regional-contacts.html">Administration <span class="icon" data-icon="chevron-down" style="width:14px;height:14px;"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="administration--regional-contacts.html">Regional Contacts</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms--conditions.html">Terms &amp; Conditions</a></li>
+          </ul>
+        </li>
+        <li><a href="administration--regional-contacts.html" class="nav-cta">Contact Us</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="icon" data-icon="menu" style="width:22px;height:22px;"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="page-hero-blobs">
+    <div class="page-hero-blob-1"></div>
+    <div class="page-hero-blob-2"></div>
+  </div>
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>Specialist Services</span>
+    </div>
+    <span class="eyebrow">Advanced Security</span>
+    <h1 class="stagger-words">Specialist Services</h1>
+    <p>Beyond standard security installations, Praesidia Alliance offers a range of specialist programmes through authorised partnerships with world-leading security brands.</p>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="section" data-reveal>
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">What We Offer</span>
+      <h2>Purpose-Built for the South Pacific</h2>
+      <div class="divider"></div>
+      <p>Each specialist service has been developed to address the specific challenges of operating security infrastructure in island nations — from power instability and remote asset tracking to the need for round-the-clock professional monitoring. Our authorised partner relationships ensure you receive genuine, supported products backed by the original manufacturers.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE CARDS -->
+<section class="section bg-light" style="padding-top:0;" data-reveal>
+  <div class="container">
+    <div class="grid-3">
+
+      <div class="outreach-card card" data-reveal data-delay="1">
+        <div class="outreach-card-header">
+          <div class="outreach-icon">
+            <span class="icon" data-icon="shield" style="width:28px;height:28px;"></span>
+          </div>
+        </div>
+        <div class="outreach-card-body">
+          <h3>AJAX Systems</h3>
+          <p>Wireless intruder detection, fire alarms, smart home integration and real-time app alerts. Praesidia Alliance are authorised AJAX integrators for the South Pacific region.</p>
+          <a href="ajax-systems.html" class="btn btn-outline btn-sm" style="margin-top:20px;">
+            Learn More <span class="icon" data-icon="arrow-right" style="width:14px;height:14px;"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="outreach-card card" data-reveal data-delay="2">
+        <div class="outreach-card-header">
+          <div class="outreach-icon">
+            <span class="icon" data-icon="map" style="width:28px;height:28px;"></span>
+          </div>
+        </div>
+        <div class="outreach-card-body">
+          <h3>GPS Vehicle &amp; Asset Tracking</h3>
+          <p>Real-time fleet and asset monitoring via the TrackNETMobi platform. Set geo-fence alerts, review travel history and protect your mobile assets across all PAL regions.</p>
+          <a href="tracknetmobi.html" class="btn btn-outline btn-sm" style="margin-top:20px;">
+            Learn More <span class="icon" data-icon="arrow-right" style="width:14px;height:14px;"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="outreach-card card" data-reveal data-delay="3">
+        <div class="outreach-card-header">
+          <div class="outreach-icon">
+            <span class="icon" data-icon="eye" style="width:28px;height:28px;"></span>
+          </div>
+        </div>
+        <div class="outreach-card-body">
+          <h3>24/7 Monitoring Network</h3>
+          <p>Our operations centre in Nuku'alofa runs around the clock. Every alarm event is received, assessed and actioned by trained monitoring staff with instant SMS and app-based alerts.</p>
+          <a href="247net.html" class="btn btn-outline btn-sm" style="margin-top:20px;">
+            Learn More <span class="icon" data-icon="arrow-right" style="width:14px;height:14px;"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="outreach-card card" data-reveal data-delay="4">
+        <div class="outreach-card-header">
+          <div class="outreach-icon">
+            <span class="icon" data-icon="zap" style="width:28px;height:28px;"></span>
+          </div>
+        </div>
+        <div class="outreach-card-body">
+          <h3>Power Protection</h3>
+          <p>UPS systems, battery maintenance, surge protection and generator interface solutions to keep your security infrastructure running during the frequent power outages common across the South Pacific.</p>
+          <a href="power.html" class="btn btn-outline btn-sm" style="margin-top:20px;">
+            Learn More <span class="icon" data-icon="arrow-right" style="width:14px;height:14px;"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="outreach-card card" data-reveal data-delay="5">
+        <div class="outreach-card-header">
+          <div class="outreach-icon">
+            <span class="icon" data-icon="briefcase" style="width:28px;height:28px;"></span>
+          </div>
+        </div>
+        <div class="outreach-card-body">
+          <h3>Cash In Transit</h3>
+          <p>Secure cash collection and transport services across the Kingdom of Tonga. Trained personnel and documented chain of custody procedures protect your cash during every movement.</p>
+          <a href="cit.html" class="btn btn-outline btn-sm" style="margin-top:20px;">
+            Learn More <span class="icon" data-icon="arrow-right" style="width:14px;height:14px;"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="outreach-card card" data-reveal data-delay="6">
+        <div class="outreach-card-header">
+          <div class="outreach-icon">
+            <span class="icon" data-icon="check" style="width:28px;height:28px;"></span>
+          </div>
+        </div>
+        <div class="outreach-card-body">
+          <h3>Testing &amp; Assessment</h3>
+          <p>Compliance testing and assessment for intruder alarms, fire systems, CCTV and access control. Our technicians produce formal reports to satisfy insurance and regulatory requirements.</p>
+          <a href="testing.html" class="btn btn-outline btn-sm" style="margin-top:20px;">
+            Learn More <span class="icon" data-icon="arrow-right" style="width:14px;height:14px;"></span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS STRIP -->
+<div class="partners-strip" data-reveal>
+  <div class="container">
+    <span class="partners-strip-label">Authorised Partners</span>
+    <div class="partners-strip-row">
+      <span class="partner-name">AJAX Systems</span>
+      <span class="partner-dot">·</span>
+      <span class="partner-name">Gallagher Security</span>
+      <span class="partner-dot">·</span>
+      <span class="partner-name">Geutebrück</span>
+      <span class="partner-dot">·</span>
+      <span class="partner-name">TrackNETMobi</span>
+      <span class="partner-dot">·</span>
+      <span class="partner-name">PowerShield</span>
+    </div>
+  </div>
+</div>
+
+<!-- CTA TYPE -->
+<div class="cta-type" data-reveal>
+  <div class="container">
+    <div class="cta-type-inner">
+      <span class="eyebrow">Get in Touch</span>
+      <h2>Discuss Your Security Requirements</h2>
+      <p>Our specialist team can advise on the right combination of services for your site, whether you are a first-time customer or looking to expand an existing installation.</p>
+      <div class="cta-type-links">
+        <a href="administration--regional-contacts.html" class="btn btn-primary">Contact Us</a>
+        <span class="cta-type-sep">or</span>
+        <a href="pal-branches.html" class="btn btn-ghost">Find Your Branch</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-brand-bar">
+    <div class="container">
+      <span class="footer-brand-statement">Protecting the South Pacific Since 2011</span>
+    </div>
+  </div>
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom:20px;display:inline-flex;">
+            <img src="images/logo.png" alt="Praesidia Alliance" class="nav-logo-img">
+            <div class="nav-logo-text">
+              <strong style="color:#fff;">Praesidia</strong>
+              <span>Alliance</span>
+            </div>
+          </a>
+          <p>Specialist security systems and services across Tonga, Samoa, Vanuatu, New Zealand and Australia. Authorised integrators for AJAX Systems, Gallagher Security and Geutebrück.</p>
+          <span class="footer-tagline">"Protecting what matters most."</span>
+        </div>
+        <div>
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="specialist.html">Specialist Services</a></li>
+            <li><a href="ajax-systems.html">AJAX Systems</a></li>
+            <li><a href="tracknetmobi.html">GPS Tracking</a></li>
+            <li><a href="247net.html">24/7 Monitoring</a></li>
+            <li><a href="power.html">Power Protection</a></li>
+            <li><a href="cit.html">Cash In Transit</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pal-branches.html">PAL Branches</a></li>
+            <li><a href="testing.html">Testing &amp; Assessment</a></li>
+            <li><a href="administration--regional-contacts.html">Contact Us</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms--conditions.html">Terms &amp; Conditions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Headquarters</h5>
+          <ul class="footer-links">
+            <li style="color:rgba(255,255,255,0.45);font-size:0.88rem;line-height:1.7;">Bypass Road, Ma'ufanga<br>Nuku'alofa, Kingdom of Tonga</li>
+          </ul>
+          <ul class="footer-links" style="margin-top:12px;">
+            <li><a href="tel:+67624126">+676 24 126</a></li>
+            <li><a href="tel:+6767757750">+676 775 7750</a></li>
+            <li><a href="mailto:info@praesidia-alliance.com">info@praesidia-alliance.com</a></li>
+          </ul>
+          <p style="margin-top:16px;font-size:0.75rem;color:rgba(255,255,255,0.2);line-height:1.6;">Reg No: 9005292 &nbsp;·&nbsp; Tax No: 458610</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;width:100%;">
+      <span>© 2026 Praesidia Alliance Limited. All rights reserved.</span>
+      <span style="color:rgba(255,255,255,0.25);">Nuku'alofa, Kingdom of Tonga</span>
+    </div>
+  </div>
+</footer>
+<a href="#" class="back-to-top" aria-label="Back to top">
+  <span class="icon" data-icon="arrow-up" style="width:20px;height:20px;"></span>
+</a>
+<script src="js/icons.js?v=1"></script>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
