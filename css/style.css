@@ -554,7 +554,7 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 
 /* PARTNERS — minimal version */
 .partners-strip { background:var(--bg-light); padding:40px 0; border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
-.partners-strip-label { font-size:0.65rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--text-light); text-align:center; margin-bottom:24px; }
+.partners-strip-label { display:block; font-size:0.65rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--text-light); text-align:center; margin-bottom:24px; }
 .partners-strip-row { display:flex; align-items:center; justify-content:center; gap:56px; flex-wrap:wrap; }
 .partner-name { font-size:0.8rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--text-light); transition:color 0.2s ease; }
 .partner-name:hover { color:var(--primary); }
