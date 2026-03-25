@@ -649,7 +649,7 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
   .ajax-product-grid img { width:100%; height:auto; }
   .split-img img { height:auto; object-fit:contain; background:#060d20; }
   .ups-img { height:280px !important; object-fit:cover !important; object-position:center 70% !important; background:#f8f9fa !important; }
-  .split-img-badge { bottom:auto; top:12px; left:12px; font-size:0.72rem; padding:6px 12px; }
+  .split-img-badge { display:none; }
   .hero-actions, .cta-actions { flex-direction:column; }
   .btn { white-space:normal; text-align:center; justify-content:center; }
   .back-to-top { bottom:20px; right:20px; }
