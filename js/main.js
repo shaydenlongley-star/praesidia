@@ -17,13 +17,7 @@
     prog.style.width = ((window.scrollY / (s.scrollHeight - s.clientHeight)) * 100) + '%';
   }, { passive: true });
 
-  /* PRELOADER */
-  const preloader = document.querySelector('.preloader');
-  if (preloader) {
-    window.addEventListener('load', () => setTimeout(() => preloader.classList.add('done'), 1400));
-  }
-
-  /* NAVBAR SCROLL STATE */
+/* NAVBAR SCROLL STATE */
   const navbar = document.getElementById('navbar');
   if (navbar) {
     window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 40), { passive: true });
