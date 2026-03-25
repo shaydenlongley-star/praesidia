@@ -141,6 +141,7 @@ img { max-width:100%; display:block; }
 .has-dropdown:hover .dropdown-menu { opacity:1; visibility:visible; transform:translateY(0); }
 .dropdown-menu li a { font-size:0.82rem; padding:9px 18px; color:rgba(255,255,255,0.72); border-radius:0; display:block; }
 .dropdown-menu li a:hover { color:#fff; background:rgba(0,64,204,0.15); }
+.dropdown-menu li a.active { color:#fff; background:rgba(0,64,204,0.25); border-left:3px solid var(--primary-light); padding-left:15px; }
 
 /* Mobile nav */
 @media(max-width:900px) {
