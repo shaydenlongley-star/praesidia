@@ -129,11 +129,11 @@ img { max-width:100%; display:block; }
    ============================================ */
 .navbar {
   position:fixed; top:0; left:0; right:0; height:var(--nav-height);
-  background:#0040CC; backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
+  background:#fff; backdrop-filter:blur(24px); -webkit-backdrop-filter:blur(24px);
   z-index:1000; transition:var(--transition);
-  border-bottom:1px solid rgba(0,0,0,0.15);
+  border-bottom:1px solid rgba(0,0,0,0.1);
 }
-.navbar.scrolled { background:#0035aa; box-shadow:var(--shadow); border-bottom-color:rgba(0,0,0,0.2); }
+.navbar.scrolled { background:#fff; box-shadow:var(--shadow); border-bottom-color:rgba(0,0,0,0.12); }
 .nav-inner { display:flex; align-items:center; justify-content:space-between; height:100%; }
 .nav-logo { display:flex; align-items:center; gap:12px; text-decoration:none; }
 .nav-logo-img { height:38px; width:auto; display:block; border-radius:6px; }
@@ -141,8 +141,8 @@ img { max-width:100%; display:block; }
 .nav-logo-text span   { font-size:0.62rem; color:rgba(255,255,255,0.45); letter-spacing:0.14em; text-transform:uppercase; }
 .nav-menu { display:flex; align-items:center; gap:2px; list-style:none; }
 .nav-menu > li { position:relative; }
-.nav-menu a { padding:8px 13px; border-radius:var(--radius-sm); font-size:0.84rem; font-weight:500; color:rgba(255,255,255,0.72); text-decoration:none; transition:var(--transition-fast); display:flex; align-items:center; gap:4px; }
-.nav-menu a:hover, .nav-menu a.active { color:#fff; }
+.nav-menu a { padding:8px 13px; border-radius:var(--radius-sm); font-size:0.84rem; font-weight:500; color:rgba(6,13,32,0.65); text-decoration:none; transition:var(--transition-fast); display:flex; align-items:center; gap:4px; }
+.nav-menu a:hover, .nav-menu a.active { color:#060d20; background:rgba(0,0,0,0.05); }
 .nav-cta { background:var(--primary) !important; color:#fff !important; border-radius:var(--radius-sm) !important; padding:8px 18px !important; }
 .nav-cta:hover { background:var(--primary-light) !important; }
 .nav-toggle { display:none; background:none; border:none; cursor:pointer; color:#fff; width:44px; height:44px; align-items:center; justify-content:center; border-radius:var(--radius-sm); }
