@@ -647,7 +647,8 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
   .photo-grid, .product-grid { grid-template-columns:1fr; }
   .ajax-product-grid { grid-template-columns:1fr !important; gap:16px !important; }
   .ajax-product-grid img { width:100%; height:auto; }
-  .split-img img { height:240px; }
+  .split-img img { height:auto; object-fit:contain; background:#060d20; }
+  .split-img-badge { bottom:auto; top:12px; left:12px; font-size:0.72rem; padding:6px 12px; }
   .hero-actions, .cta-actions { flex-direction:column; }
   .btn { white-space:normal; text-align:center; justify-content:center; }
   .back-to-top { bottom:20px; right:20px; }
