@@ -317,8 +317,8 @@ img { max-width:100%; display:block; }
 .contact-info-item:last-child { border-bottom:none; }
 .contact-info-icon { width:40px; height:40px; background:var(--bg-light); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
 .contact-info-icon .icon { width:18px; height:18px; color:var(--primary); }
-.contact-info-text strong { display:block; font-size:0.85rem; font-weight:700; margin-bottom:2px; }
-.contact-info-text span, .contact-info-text a { font-size:0.9rem; color:var(--text-mid); }
+.contact-info-text strong { display:block; font-size:0.85rem; font-weight:700; margin-bottom:0; }
+.contact-info-text span, .contact-info-text a { font-size:0.9rem; color:var(--text-mid); display:block; line-height:1.5; }
 .form-group { margin-bottom:18px; }
 .form-label { display:block; font-size:0.82rem; font-weight:600; margin-bottom:6px; color:var(--text-dark); }
 .form-control {
